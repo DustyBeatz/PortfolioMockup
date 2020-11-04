@@ -2,7 +2,7 @@
     //include the file we just wrote - connect
     include("connect.php"); //like a JS import statement
 
-    $query = "SELECT * FROM profdata";
+    $query = "SELECT * FROM ";// insert a table from the portfolio database!!
 
     $runQuery = $pdo->query($query); 
 
