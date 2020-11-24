@@ -1,0 +1,29 @@
+#homeGallery {
+    grid-column: 1/7;
+    grid-row: 5;
+}
+
+#homeGallery {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+
+}
+
+#homeGallery h2 {
+    grid-column: 1/7;
+    grid-row: 1;
+}
+
+#nestGallery {
+    grid-column: 3/5;
+    grid-row: 2;
+}
+#nestGallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#homeGallery button {
+    grid-column: 3/5;
+    grid-row: 3;
+}

@@ -1,1 +1,12 @@
+//variables
+@import "modules/_vars.scss";
+//mixins
+
+//style pages
 @import "modules/_main.scss";
+@import "modules/_nav.scss";
+@import "modules/_landingPage.scss";
+@import "modules/_aboutMe.scss";
+@import "modules/_homeGallery.scss";
+@import "modules/_contact.scss";
+@import "modules/_footer.scss";

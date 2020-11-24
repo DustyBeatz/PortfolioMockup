@@ -1,0 +1,43 @@
+1. Goal
+    To build a portfolio displaying 3D content effectively
+        -interactive Gallery
+        -Quick engaging paragraphs
+        -smooth loading times
+
+2. Define the Scope
+    -contact page - working
+    -About Me -describing what i do and who i am
+    -Landing Page- content Reel in the background
+    -Gallery Page
+
+-Build a timeline for the construction of the site
+
+3. Sitemap and Wireframe creation
+    -Build the look and design 
+        - Logo Reconstruction 
+        - mood board and color page
+        - mobile then desktop
+        -Done quickly and effectively
+
+    -the interrelation within the site
+        -how to get from one page to another effectively
+        -making contacting me easy
+
+
+4. Content creation
+    - creating the content for the site
+    - 3JS research needs to be Done
+        - figure out how to implement paralax 
+    
+5. Visual elements
+    What visual elements are we going to feature
+        -Css animation
+        -Javascript anaimation and functionality
+        -mood and theme
+
+6. Testing 
+    Lets see if we can break the site and tweak anymore bugs we may have. 
+    -last week of 
+    
+7. Launch
+    Set up the website on  host paragraphs And workout bugs
