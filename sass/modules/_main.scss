@@ -31,3 +31,17 @@ li {
 h2 {
     margin: 0;
 }
+
+@media all and (min-width: 700px) {
+    main {
+        grid-template-columns: repeat(8, 1fr);
+
+    }
+}
+
+@media all and (min-width: 950px) {
+    main {
+        grid-template-columns: repeat(8, 1fr);
+
+    }
+}

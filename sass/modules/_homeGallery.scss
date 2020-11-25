@@ -49,3 +49,14 @@
     padding: 0;
     margin: 0;
 }
+
+
+@media all and (min-width: 700px) {
+    #homeGallery {
+        grid-column: 1/9;
+    }
+
+    .seeMore{ 
+        grid-column: 4/6;
+    }
+}

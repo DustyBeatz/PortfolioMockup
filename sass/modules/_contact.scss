@@ -71,3 +71,11 @@
     justify-self: center;
     padding-top: 10px;
 }
+
+
+@media all and (min-width: 700px) {
+    .contactPage{
+        grid-column: 2/8;
+
+    }
+}

@@ -33,9 +33,9 @@
     padding-bottom: 15px;
 }
 
-.aboutMeTitle {
+.subTitle {
     font-family: $title-font;
-    font-size: 2em;
+    font-size: 2.5em;
     color: #fff;
 }
 
@@ -85,4 +85,14 @@
     font-family: $main-font;
  
 
+}
+
+@media all and (min-width: 700px) {
+    #aboutMe {
+        margin-top: 50px;
+        grid-column: 2/8;
+
+    }
+
+    
 }

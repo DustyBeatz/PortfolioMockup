@@ -19,3 +19,24 @@ header {
     width: 10vw;
     padding:10px;
 }
+
+@media all and (min-width: 700px) {
+    header {
+        grid-column: 1;
+
+        a img {
+            width: 8vw;
+        }
+    }
+
+    .navItems {
+        grid-column: 8;
+        justify-self: center;
+        padding-right: 10px;
+    }
+
+    .icons {
+        width: 7vw;
+    }
+
+}

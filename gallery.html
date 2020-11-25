@@ -12,9 +12,92 @@
     <link rel="stylesheet" href="css/master.css">
 </head>
 <body>
-    <main id="app">
+    <main id="galleryApp">
+        <header>
+            <!-- logo and navigation will go here-->
+            <a id="logoHome" href="index.html"><img alt="logo" src="images/gd_logo_white.svg"></a>
+        </header>
+    
+            <nav class="navItems">
+                <ul>
+                    <li><a href="gallery.html"><img  class="icons" src="images/gallery_icon.svg" alt="gallery icon"></a></li>
+    
+                    <li><img class="icons" src="images/contact_icon.svg" alt="Contact icon"></li>
+                </ul> 
+            </nav>
+
+
+            <h2 class="subTitle titleImages  galleryTitle">Images</h2>
+
+
+            <section id="imageMount" class="imageGallery Gallery">
+                <h2 class="hidden">Gallery</h1>
+                    <img class="lGallery" src="images/gallery/bedroom_render.jpg" alt="bedroom render">
+                    <img class="lGallery" src="images/gallery/bottle_render3.jpg" alt="bottle Render">
+                    <img class="lGallery" src="images/gallery/mech3.jpg" alt="mechbuild">
+                    <img class="lGallery" src="images/gallery/poly_world_clouds.jpg" alt="poly planet">
+                    <img class="lGallery" src="images/gallery/bedroom_render1.jpg" alt="newer bedroom">
+                    <img class="lGallery"  src="images/gallery/the_process.jpg" alt="doughtnut!">
+            </section>
+
+
+            <h2 class="subTitle titleVideo  galleryTitle">Videos</h2>
+
+            <section id="videoMount" class="videoGallery Gallery">
+                <img class="lGallery" src="images/gallery/bedroom_render.jpg" alt="bedroom render">
+                <img class="lGallery" src="images/gallery/bottle_render3.jpg" alt="bottle Render">
+                <img class="lGallery" src="images/gallery/mech3.jpg" alt="mechbuild">
+                <img class="lGallery" src="images/gallery/poly_world_clouds.jpg" alt="poly planet">
+                <img class="lGallery" src="images/gallery/bedroom_render1.jpg" alt="newer bedroom">
+                <img class="lGallery"  src="images/gallery/the_process.jpg" alt="doughtnut!">
+            </section>
+
+
+
+            <div class="contactPage">
+                <h2 class="hidden">Contact</h2>
         
-    <h3> Hello!</h3>
+                <h2 class="subTitle contactTitle">Let's Talk!</h2>
+        
+                
+        
+                <form action="action_page.php">
+                <label for="fname">First Name</label>
+        
+                  <input type="text" 
+                class="inputStyle fname" name="firstname" placeholder="Type your name..">
+              
+        
+                <label for="lname">Last Name</label>
+                  <input type="text" 
+                class="inputStyle lname" name="lastname" placeholder="Type your last name..">
+        
+                <label for="lname">E-mail</label>
+                  <input type="text" 
+                class="inputStyle email" name="e-mail" placeholder="Type your e-mail..">
+              
+              
+                  
+                <label for="subject">Message</label>
+                  <textarea 
+                class="inputStyle message" name="message" placeholder="Your message here.." 
+                style="height:200px"></textarea>
+              
+                  <input class="inputStyle submitButton"
+                type="submit" value="Submit">
+              
+                </form>
+              </div> 
+        
+        
+        
+            <footer>
+                <ul>
+                    <li><a href=""><img class="footerIcons" src="images/behance.svg" alt="Behance icon"></a></li>
+                    <li><a href=""><img class="footerIcons" src="images/instagram.svg" alt="Instagram icon"></a></li>
+                    <li><a href=""><img class="footerIcons" src="images/linkedin.svg" alt="Linkdin icon"></a></li>
+                </ul> 
+            </footer>
 
 </main>
 <script type="module" src="js/main.js"></script>
