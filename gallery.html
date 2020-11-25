@@ -40,11 +40,18 @@
             <h2 class="subTitle titleVideo  galleryTitle">Videos</h2>
 
             <section id="videoMount" class="videoGallery Gallery">
-                <video v-for="videosrc in galleryVideos" class="lGallery" :src="videosrc.video" :alt="videosrc.title" controls>
-                </video>
+
+                <ul class="videothumbsLayout">
+                   <li v-for="videosrc in galleryVideos" class="Gvideo lGallery">
+                    <img class=" lGallery" :src="videosrc.thumb" :alt="videosrc.title">
+                     <!-- <img class="lGallery playArrow" src="images/arrow.svg" alt="playarrow"> -->
+                   </li>
+                </ul>
+           
             </section>
 
-
+     <!-- <video v-for="videosrc in galleryVideos" class="lGallery" :src="videosrc.video" :alt="videosrc.title" controls>
+                </video> -->
 
             <div class="contactPage">
                 <h2 class="hidden">Contact</h2>

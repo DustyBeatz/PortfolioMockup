@@ -29,3 +29,19 @@
 .titleVideo {
     grid-row: 5;
 }
+
+.playArrow{
+    display: none;
+}
+
+.videothumbsLayout{
+    grid-column: 1/9;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+}
+
+.Gvideo :hover {
+
+    border: solid thick white;
+}
