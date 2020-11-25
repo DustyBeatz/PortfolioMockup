@@ -1,16 +1,14 @@
-@font-face {
-    font-family: 'Titillium-Bold', monospace;
-    src: url('fonts/TitilliumWeb-bold.ttf') format("truetype");
-}
 
-@font-face {
-    font-family: "Ubuntu-light", monospace;
-    src: url('./fonts/Ubunt-Light.ttf') format("truetype");
-}
+$title-font: 'Titillium Web';
+
+// @font-face {
+//     font-family: "Ubuntu-light", monospace;
+//     src: url('./fonts/Ubunt-Light.ttf') format("truetype");
+// }
+$main-font: 'Ubuntu';
+
 
 .hidden {
     display: none;
 }
 
-$main-font: 'Ubuntu-light';
-$title-font: 'Titillium-Bold';

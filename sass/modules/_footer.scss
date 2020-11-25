@@ -1,8 +1,13 @@
 footer {
+    padding-top: 15px;
     grid-column: 1/7;
-    grid-row: 7;
+    grid-row: 9;
+    background-color: pink;
+
+
 }
 
 footer ul  li{
     display: inline;
+    padding: 20px;
 }

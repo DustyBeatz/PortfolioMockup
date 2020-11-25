@@ -3,16 +3,31 @@ ul li {
 
 body{
     background: #A2D2FF;
+    margin: 0;
 
 }
 
 main {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    grid-auto-rows: minmax(240px, auto);
-    margin: 0 auto;
+    grid-auto-rows: auto;
+    margin: 0 ;
 }
 
 p {
+    margin: 0;
+    font-family: $main-font;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin: 0;
+}
+
+h2 {
     margin: 0;
 }

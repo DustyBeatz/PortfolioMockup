@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="../images/gd_logo_white.svg">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700&display=swap" rel="stylesheet">
     <title>Grayson Devine</title>
     <link rel="stylesheet" href="css/master.css">
 </head>
@@ -31,27 +35,42 @@
 
     <section id="aboutMe">
         <img src="images/aboutMe1.png" alt="Headshot">
-        <h2 class="subTitle">About Me</h2>
+        <h2 class="subTitle aboutMeTitle">About Me</h2>
         <p>Here is my about me description</p>
+        <h2 class="skillsTitle">Here are my Skills</h2>
+            <ul class="skillsBox">
+                <li> <p>Photoshop</p></li>
+                <li> <p>illustarator</p></li>
+                <li> <p>After <br> Effects</p></li>
+                <li> <p>InDesign</p></li>
+                <li> <p>XD</p></li>
+                <li> <p>Priemer <br> Pro</p></li>
+                <li> <p>Cinema4D</p></li>
+                <li> <p>Blender</p></li>
+            </ul>
+
     </section>
 
     <section id="homeGallery">
         <h2 class="hidden">Gallery</h1>
-            <div id="nestGallery">
-            <a><img src="" alt="">img</a>
-            <a><img src="" alt="">img</a>
-            <a><img src="" alt="">img</a>
-            <a><img src="" alt="">img</a>
-            <a><img src="" alt="">img</a>
-            <a><img src="" alt="">img</a>
-        </div>
-
-        <button>See more</button>
+            <img class="lGallery" src="images/gallery/bedroom_render.jpg" alt="bedroom render">
+            <img class="lGallery" src="images/gallery/bottle_render3.jpg" alt="bottle Render">
+            <img class="lGallery" src="images/gallery/mech3.jpg" alt="mechbuild">
+            <img class="lGallery" src="images/gallery/poly_world_clouds.jpg" alt="poly planet">
+            <img class="lGallery" src="images/gallery/bedroom_render1.jpg" alt="newer bedroom">
+            <img class="lGallery"  src="images/gallery/the_process.jpg" alt="doughtnut!">
     </section>
+    <div class="seeMore">
+        <a href="gallery.html">Gallery</a>
+    </div>
 
-
+    
     <div class="contactPage">
-        <h1 class="hidden">Contact</h1>
+        <h2 class="hidden">Contact</h2>
+
+        <h2 class="subTitle contactTitle">Let's Talk!</h2>
+
+        
 
         <form action="action_page.php">
         <label for="fname">First Name</label>
@@ -91,8 +110,6 @@
             <li><a href=""><img alt="Linkdin icon"></a></li>
         </ul> 
     </footer>
-
-    
 </main>
 <script type="module" src="js/main.js"></script>
 </body>
