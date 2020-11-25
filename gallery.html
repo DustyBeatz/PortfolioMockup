@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
     <title>Grayson Devine Gallery</title>
     <link rel="stylesheet" href="css/master.css">
 </head>
@@ -32,24 +33,15 @@
 
             <section id="imageMount" class="imageGallery Gallery">
                 <h2 class="hidden">Gallery</h1>
-                    <img class="lGallery" src="images/gallery/bedroom_render.jpg" alt="bedroom render">
-                    <img class="lGallery" src="images/gallery/bottle_render3.jpg" alt="bottle Render">
-                    <img class="lGallery" src="images/gallery/mech3.jpg" alt="mechbuild">
-                    <img class="lGallery" src="images/gallery/poly_world_clouds.jpg" alt="poly planet">
-                    <img class="lGallery" src="images/gallery/bedroom_render1.jpg" alt="newer bedroom">
-                    <img class="lGallery"  src="images/gallery/the_process.jpg" alt="doughtnut!">
+                    <img v-for="imagesrc in galleryImages" class="lGallery" :src="imagesrc.image" :alt="imagesrc.title">
             </section>
 
 
             <h2 class="subTitle titleVideo  galleryTitle">Videos</h2>
 
             <section id="videoMount" class="videoGallery Gallery">
-                <img class="lGallery" src="images/gallery/bedroom_render.jpg" alt="bedroom render">
-                <img class="lGallery" src="images/gallery/bottle_render3.jpg" alt="bottle Render">
-                <img class="lGallery" src="images/gallery/mech3.jpg" alt="mechbuild">
-                <img class="lGallery" src="images/gallery/poly_world_clouds.jpg" alt="poly planet">
-                <img class="lGallery" src="images/gallery/bedroom_render1.jpg" alt="newer bedroom">
-                <img class="lGallery"  src="images/gallery/the_process.jpg" alt="doughtnut!">
+                <video v-for="videosrc in galleryVideos" class="lGallery" :src="videosrc.video" :alt="videosrc.title" controls>
+                </video>
             </section>
 
 
