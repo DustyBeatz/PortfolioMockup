@@ -20,6 +20,7 @@
 .contactPage form {
     display: grid;
     grid-template-columns: 1fr;
+    gap: 10px;
 }
 
 .contactTitle {
@@ -30,6 +31,43 @@
 
 .contactTitle {
     font-family: $title-font;
-    font-size: 2em;
+    font-size: 2.5em;
     color: #fff;
+}
+
+.contactPage {
+    font-family: $main-font;
+    size: 1em;
+}
+
+.inputStyle {
+    justify-self: center;
+
+}
+
+.inputStyle {
+    font-family: $main-font;
+    border: none;
+    -webkit-appearance: none;
+    -ms-apperance: none;
+    -moz-appearance: none;
+    background: #f2f2f2;
+    padding: 12px;
+    @include roundCorners(3px);
+    width: 250px;
+    outline: none;
+}
+
+.inputStyle:focus::placeholder {
+    color: transparent;
+}
+
+.inputStyle::placeholder {
+    color: #222;
+    transition: color 0.3s ease;
+}
+
+.submitButton {
+    justify-self: center;
+    padding-top: 10px;
 }
